@@ -9,3 +9,12 @@ cards:
   onCallSupport:
     - (412) 419-3491
     - (915) 382-1932
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: "http://localhost:8070/eureka/"
