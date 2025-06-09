@@ -10,11 +10,3 @@ loans:
     - (723) 656-8709
     - (156) 342-0956
 
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: "http://localhost:8070/eureka/"

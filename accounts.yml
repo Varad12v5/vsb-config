@@ -10,11 +10,3 @@ accounts:
     - (555) 555-1234
     - (555) 523-1345
 
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: "http://localhost:8070/eureka/"

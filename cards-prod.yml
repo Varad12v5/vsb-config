@@ -10,11 +10,3 @@ cards:
     - (617) 432-2356
     - (936) 564-8721
 
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: "http://localhost:8070/eureka/"
